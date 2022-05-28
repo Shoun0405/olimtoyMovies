@@ -2,7 +2,7 @@
   "name": "tmdb-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Shoun0405/olimtoyMovies.git",
+  "homepage": "https://shoun0405.github.io/olimtoyMovies/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
