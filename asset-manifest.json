@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Shoun0405/olimtoyMovies.git/static/css/main.dbb8f84d.css",
-    "main.js": "/Shoun0405/olimtoyMovies.git/static/js/main.5a99bd64.js",
-    "index.html": "/Shoun0405/olimtoyMovies.git/index.html",
-    "main.dbb8f84d.css.map": "/Shoun0405/olimtoyMovies.git/static/css/main.dbb8f84d.css.map",
-    "main.5a99bd64.js.map": "/Shoun0405/olimtoyMovies.git/static/js/main.5a99bd64.js.map"
+    "main.css": "/olimtoyMovies/static/css/main.dbb8f84d.css",
+    "main.js": "/olimtoyMovies/static/js/main.5a99bd64.js",
+    "index.html": "/olimtoyMovies/index.html",
+    "main.dbb8f84d.css.map": "/olimtoyMovies/static/css/main.dbb8f84d.css.map",
+    "main.5a99bd64.js.map": "/olimtoyMovies/static/js/main.5a99bd64.js.map"
   },
   "entrypoints": [
     "static/css/main.dbb8f84d.css",
