@@ -10,13 +10,13 @@ const Navbar = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <Link to={'olimtoyMovies/'} className="navbar-brand text-light">OlimtoyMovie</Link>
+            <Link to={'/'} className="navbar-brand text-light">OlimtoyMovie</Link>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to={'olimtoyMovies/'} className="nav-link text-light active" aria-current="page">Home</Link>
+                <Link to={'/'} className="nav-link text-light active" aria-current="page">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to={'olimtoyMovies/search'} className="nav-link text-light active" aria-current="page">Search</Link>
+                <Link to={'/search'} className="nav-link text-light active" aria-current="page">Search</Link>
               </li>
             </ul>
           </div>

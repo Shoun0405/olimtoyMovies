@@ -13,9 +13,9 @@ root.render(
     <Provider store={ store }>
 
     <Routes>
-      <Route exect path='olimtoyMovies/' element={<App/>}/>
-      <Route path='olimtoyMovies/:id' element={<MoviesDetails/>} />
-      <Route path='olimtoyMovies/search' element={<SearchedMovies/>} />
+      <Route exect path='/' element={<App/>}/>
+      <Route path='/:id' element={<MoviesDetails/>} />
+      <Route path='/search' element={<SearchedMovies/>} />
     </Routes>
 
     </Provider>
