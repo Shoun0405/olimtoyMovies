@@ -29,7 +29,7 @@ const MoviesCarousel = ({data, name}) => {
         <SwiperSlide key={state.id}>
         <Link
         className=" text-decoration-none"
-        to={`/${state.id}`} 
+        to={`olimtoyMovies/${state.id}`} 
         >
           <img
           className="movie_img border-r

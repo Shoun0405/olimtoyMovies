@@ -67,7 +67,7 @@ const MoviesDetails = () => {
               <div className="d-flex align-items-center mb-4">
               <img className='posterImg'
               src={`${imgPath}w1280${moviesDetails?.poster_path}`} alt="" />{
-                actors ? null
+                !actors ? null
                 :
               <Actors actors={actors}/>
               }

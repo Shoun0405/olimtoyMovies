@@ -48,7 +48,7 @@ const SearchedMovies = () => {
             </h1>                
         :
          searchMovie.map(searched => (
-                <Link to={`/${searched.id}`}
+                <Link to={`olimtoyMovies/${searched.id}`}
                 key={searched.id} 
                 onClick={()=>dispatch(popularMoviesDetails(searched.id))} 
                 className="card m-3 shadow" style={{width: '16rem'}}>

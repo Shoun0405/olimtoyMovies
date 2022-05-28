@@ -35,7 +35,9 @@ const HeaderCarousel = ({movies}) => {
     >
         { movies && movies.map(movie => (
             <SwiperSlide key={movie.id} >
-              <Link onClick={()=> dispatch(popularMoviesDetails(movie.id))} to={`/${movie.id}`}>
+              <Link 
+              onClick={()=> dispatch(popularMoviesDetails(movie.id))} 
+              to={`/${movie.id}`}>
                 <img className='d-block w-100 justify-content-center align-items-center' src={` ${imgPath}w1280${movie.backdrop_path} `}  alt='' />
                 
                 <div className="carousel-caption d-none d-md-block">
